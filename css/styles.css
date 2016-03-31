@@ -1,0 +1,10 @@
+#player-2{
+  display: none;
+}
+
+#player-scores{
+  background-color: #F5F5F5;
+  border-width: thick;
+  border-style: solid;
+  border-color: #333;
+}

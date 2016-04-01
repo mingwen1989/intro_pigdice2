@@ -34,7 +34,7 @@ $("button#player-1-roll-click").click(function(event) {
       $("#player-2").show();
       $("#player-1").hide();
     }
-    else if (player1.dice >= 100) {
+    else if (player1.totalScore >= 100) {
       alert("You win!")
     }
 });
@@ -56,7 +56,7 @@ $("button#player-2-roll-click").click(function(event) {
       $("#player-1").show();
       $("#player-2").hide();
     }
-    else if (player2.dice >= 100) {
+    else if (player2.totalScore >= 100) {
       alert("You win!")
     }
 
